@@ -1,0 +1,6 @@
+2020-06-08 16:26:19,552 INFO [root] [__init__.py(<module>:10)] - Test日志会不会打印！！！
+2020-06-08 16:26:19,751 INFO [root] [test_ihrm_employee.py(test01_login_success:27)] - 登录接口返回的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b4d92701-a1c7-449a-af04-200e1e805932'}
+2020-06-08 16:26:19,751 INFO [root] [test_ihrm_employee.py(test01_login_success:33)] - 保存到全局变量中的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer b4d92701-a1c7-449a-af04-200e1e805932'}
+2020-06-08 16:26:19,752 INFO [root] [test_ihrm_employee.py(test02_add_emp:36)] - app.HEADERS的值是：{'Content-Type': 'application/json', 'Authorization': 'Bearer b4d92701-a1c7-449a-af04-200e1e805932'}
+2020-06-08 16:26:19,783 INFO [root] [test_ihrm_employee.py(test02_add_emp:40)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269908766908743680'}}
+2020-06-08 16:26:19,783 INFO [root] [test_ihrm_employee.py(test02_add_emp:44)] - 保存到全局变量的员工的ID为：1269908766908743680
